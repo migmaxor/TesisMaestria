@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="PrototipoEvolRed.jnlp">
+  <information>
+    <title>PrototipoEvolRed</title>
+    <vendor>migma</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="PrototipoEvolRed.jar" size="3229982" download="eager" />
+    <jar href="lib\logback-classic-1.0.13.jar" size="264595" download="eager" />
+    <jar href="lib\logback-core-1.1.2.jar" size="427729" download="eager" />
+    <jar href="lib\neuroph-contrib-2.96-javadoc.jar" size="418324" download="eager" />
+    <jar href="lib\neuroph-contrib-2.96-sources.jar" size="76439" download="eager" />
+    <jar href="lib\neuroph-contrib-2.96.jar" size="98836" download="eager" />
+    <jar href="lib\neuroph-core-2.96-javadoc.jar" size="1207471" download="eager" />
+    <jar href="lib\neuroph-core-2.96-sources.jar" size="241770" download="eager" />
+    <jar href="lib\neuroph-core-2.96.jar" size="243674" download="eager" />
+    <jar href="lib\neuroph-imgrec-2.96-javadoc.jar" size="295660" download="eager" />
+    <jar href="lib\neuroph-imgrec-2.96-sources.jar" size="70080" download="eager" />
+    <jar href="lib\neuroph-imgrec-2.96.jar" size="90695" download="eager" />
+    <jar href="lib\slf4j.jar" size="29881" download="eager" />
+    <jar href="lib\visrec-api-1.0-SNAPSHOT.jar" size="25696" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="vista.EvolRed"  name="PrototipoEvolRed" />
+  <update check="always"/>
+</jnlp>
