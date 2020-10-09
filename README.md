@@ -8,7 +8,8 @@ Este es el contenido del respositorio:
 Ejecutable (No recomendado):
 	Contiene los archivos compilados del prototipo que permite cargar CSV para la predicción de Riesgos Cardiovasculares (RCV).
 
-Entrenamiento AG:
+Entrenamiento AG:Contiene lo siguiente.
+
 	->AgCeros: Contiene el código del algoritmo genético utilizado para entrenarse con los casos de pacientes sanos, así mismo, contiene los 		resultados del entrenamiento.
 
 	->AgUnos: Contiene el código del algoritmo genético utilizado para entrenarse con los casos de pacientes con RCV, así mismo, contiene 		los resultados del entrenamiento.
@@ -16,7 +17,8 @@ Entrenamiento AG:
 PrototipoEvolRed:
 	Contiene el proyecto de Netbeans con la GUI hecha en JavaFx para cargar y ejecutar el prototipo para la predicción de RCV con el AG y la RNA.	
 
-Red Neuronal:
+Red Neuronal: Contiene lo siguiente.
+	
 	->Ejecución sin GUI: contiene un proyecto de Netbeans que ejecuta la red neuronal con el dataset de prueba sin necesidad de una GUI.
 	
 	->Errores generales del entrenamiento: Contiene todas las imágenes de los errores de entrenamiento de las diferentes RNA candidatas.
@@ -31,7 +33,8 @@ Red Neuronal:
 
 	->Redes tercera iteración: Contiene las redes neuronales producto de la tercera iteración.
 
-Validación Cruzada:
+Validación Cruzada: Contiene lo siguiente.
+
 	-> Código fuente AG: contiene el código fuente del AG para las 8 ejecuciones.
 	
 	-> Error general RNA Entrenamiento: contiene los errores al entrenar la RNA en las 4 configuraciones de dataset determinadas. Están nombrado: It<#iteración>-<#ConfiguraciónDataset>
