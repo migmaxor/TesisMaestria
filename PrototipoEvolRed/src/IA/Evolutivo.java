@@ -168,8 +168,8 @@ public class Evolutivo {
                 healthyCounter+= generationToTestHealthy.get(m).testGenome(analizar);
             }
             
-            double percentageRisk= (double) riskCounter/1111;
-            double percentagehealthy= (double) healthyCounter/1000;
+            double percentageRisk= (double) riskCounter/generationToTestRisk.size();
+            double percentagehealthy= (double) healthyCounter/generationToTestHealthy.size();
             
             boolean sano= true;
             if(percentageRisk>percentagehealthy)
