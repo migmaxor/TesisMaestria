@@ -15,7 +15,7 @@ Entrenamiento AG:Contiene lo siguiente.
 	->AgUnos: Contiene el código del algoritmo genético utilizado para entrenarse con los casos de pacientes con RCV, así mismo, contiene 		los resultados del entrenamiento.
 
 PrototipoEvolRed:
-	Contiene el proyecto de Netbeans con la GUI hecha en JavaFx para cargar y ejecutar el prototipo para la predicción de RCV con el AG y la RNA.	
+	Contiene el proyecto de Netbeans con la GUI hecha en JavaFx para cargar y ejecutar el prototipo para la predicción de RCV con el AG y la RNA. Dentro del SRC del proyecto, se encuentra una carpeta llamada "datasets", donde podrá encontrar los datasets de prueba y entrenamiento del algoritmo para poder cargarlos en el prototipo.	
 
 Red Neuronal: Contiene lo siguiente.
 	
